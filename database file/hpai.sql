@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 21, 2021 at 08:48 AM
+-- Generation Time: Aug 21, 2021 at 10:03 AM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 7.3.29
 
@@ -79,7 +79,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password`, `name`, `phone`, `address`) VALUES
-(1, 'zuesi.abfor@gmail.com', '21232f297a57a5a743894a0e4a801fc3', 'zulfiqri', '081999239325', 'Ujung Harapan Rt001/Rw014, Kel.Bahagia, Kec.Babelan, Kab.Bekasi, 17612');
+(3, 'admin@gmail.com', '21232f297a57a5a743894a0e4a801fc3', 'admin', '081999239325', 'bekasi');
 
 --
 -- Indexes for dumped tables
@@ -123,7 +123,7 @@ ALTER TABLE `transaksi`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
