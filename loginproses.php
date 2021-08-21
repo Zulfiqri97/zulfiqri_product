@@ -18,6 +18,7 @@ try {
         $_SESSION['rm_id'] = $result['id'];
         $_SESSION['rm_email'] = $result['email'];
         $_SESSION['rm_name'] = $result['name'];
+        header("Location: index.php");
     } else {
         $_SESSION['message'] = 'Email atau Password salah';
         header("Location: login.php");
